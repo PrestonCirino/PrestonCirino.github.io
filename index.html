@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston's Auto Detailing</title>
+    <style> 
+     body {
+            /* Change the font to a web-safe font */
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2, h3 {
+            /* Change the font to a different web-safe font */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        p {
+            /* Use a custom font by specifying its name */
+            font-family: "Your Custom Font", Arial, sans-serif;
+        }</style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Preston's Auto Detailing</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Preston's Auto Detailing</h2>
+            <p>We offer top-notch car detailing services to make your vehicle shine like new.</p>
+            <button>Contact Us</button>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Exterior Detailing</li>
+                <li>Interior Detailing</li>
+                <li>Paint Correction</li>
+                <li>Wheel and Tire Care</li>
+                <li>Headlight Restoration</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="image-gallery">
+                <!-- Add images of detailed cars here -->
+                <!-- Example: <img src="car1.jpg" alt="Car 1"> -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Preston's Auto Detailing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
